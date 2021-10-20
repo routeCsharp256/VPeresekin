@@ -7,7 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{0B9F35
 	ProjectSection(SolutionItems) = preProject
 		common\.dockerignore = common\.dockerignore
 		common\.gitignore = common\.gitignore
-		common\docker-compose.yml = common\docker-compose.yml
 		common\Dockerfile = common\Dockerfile
 		common\README.md = common\README.md
 	EndProjectSection
@@ -17,6 +16,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BBB4A180-6BCF-49D1-8995-9E81E140CDF7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "merchandise-service", "src\merchandise-service\merchandise-service.csproj", "{F81DA50D-7EF6-4DEF-BFC8-FE59C126DC50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{C5A811EC-5769-42CE-B64C-A59F160D608D}"
+	ProjectSection(SolutionItems) = preProject
+		common\docker-compose.yml = common\docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
